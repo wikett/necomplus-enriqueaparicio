@@ -1,0 +1,17 @@
+{
+  "name": "necomplus",
+  "version": "0.0.1",
+  "description": "Herramienta UIPath Community Edition",
+  "type": "module",
+  "scripts": {
+    "scrapper": "node ./scrapper"
+  },
+  "author": "Enrique Aparicio Castellanos",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "json2csv": "6.0.0-alpha.2"
+  },
+  "devDependencies": {
+    "playwright": "^1.44.0"
+  }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>necomplus - Enrique Aparicio -</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+  </head>
+  <body>
+    <h1>POC: User recording with silence removal</h1>
+    <p><small>Enrique Aparicio Castellanos</small></p>
+    <p><strong>Readme:</strong></p>
+    <p>If this is the first time you run the programme (by pressing the Record button), a pop-up will appear asking you to allow the use of the microphone in this browser. Once accepted, you will be able to test the system as many times as necessary.</p>
+    <p><strong>How it works:</strong></p>
+    <p>Once you press the Record button, the system starts recording avoiding silences. There is a threshold that defines whether it is silence or not, so if you speak too softly into the microphone, the system can detect it as silence.</p>
+    <p>To stop the recording and generate the audio file, simply press the Stop button.</p>
+    <div id="controls">
+  	 <button id="recordButton">Record</button>
+  	 <button id="stopButton" disabled>Stop</button>
+    </div>
+    <div id="formats">Format: start recording to see sample rate</div>
+  	<p><strong>Recordings:</strong></p>
+  	<ol id="recordingsList"></ol>
+    <!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
+  	<script src="js/recorder.js"></script>
+  	<script src="js/app.js"></script>
+  </body>
+</html>
