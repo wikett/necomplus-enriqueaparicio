@@ -19,8 +19,6 @@ Scrapper for coinbase
 
 ### Executing program
 
-* How to run the program
-
 Open the terminal
 ```
 npm run scrapper
@@ -28,4 +26,4 @@ npm run scrapper
 
 ## Output
 
-A CSV file will be generated with all the info from coinbase like `coinbase_2024-5-7_18-4-40`
+A CSV file will be generated with all the info from coinbase like `coinbase_2024-5-7_18-4-40` (this is an example)
